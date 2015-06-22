@@ -1,0 +1,620 @@
+@font-face {
+  font-family: 'bebasregular';
+  src: url('../fonts/BEBAS___-webfont.eot');
+  src: url('../fonts/BEBAS___-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/BEBAS___-webfont.woff') format('woff'), url('../fonts/BEBAS___-webfont.ttf') format('truetype'), url('../fonts/BEBAS___-webfont.svg#bebasregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'pirulen_rgregular';
+  src: url('../fonts/pirulen_rg-webfont.eot');
+  src: url('../fonts/pirulen_rg-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/pirulen_rg-webfont.woff2') format('woff2'), url('../fonts/pirulen_rg-webfont.woff') format('woff'), url('../fonts/pirulen_rg-webfont.ttf') format('truetype'), url('..fonts/pirulen_rg-webfont.svg#pirulen_rgregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'robotolight';
+  src: url('../fonts/Roboto-Light-webfont.eot');
+  src: url('../fonts/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-Light-webfont.woff') format('woff'), url('../fonts/Roboto-Light-webfont.ttf') format('truetype'), url('..fonts/Roboto-Light-webfont.svg#robotolight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  background: linear-gradient(rgba(68, 102, 130, 0.9), rgba(68, 102, 130, 0.9)), url('../IMG/background.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.registrationheading {
+  color: #85b4f4;
+  font-family: "robotolight";
+  font-size: 63px;
+  font-weight: normal;
+}
+button.smaller {
+  background: #67a4e8;
+  border: none;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  width: 92px;
+  height: 43px;
+  color: #ffffff;
+  font-family: bebasregular;
+  padding: 14px;
+  font-size: 48px;
+  border-bottom: none;
+}
+button {
+  background: #67a4e8;
+  border: none;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  width: 192px;
+  height: 93px;
+  color: #ffffff;
+  font-family: bebasregular;
+  padding: 14px;
+  font-size: 48px;
+  border-bottom: none;
+  /*-moz-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);*/
+}
+button:hover {
+  background-color: rgba(137, 179, 249, 0.8);
+}
+button.gray {
+  background: #56566b;
+  margin-top: 35px;
+  border: none;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  width: 192px;
+  height: 93px;
+  color: #ffffff;
+  font-family: bebasregular;
+  padding: 14px;
+  font-size: 48px;
+  border-bottom: none;
+  /*-moz-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);*/
+}
+button.gray:hover {
+  background-color: rgba(122, 122, 147, 0.8);
+}
+h1.logosmaller {
+  font-family: 'pirulen_rgregular';
+  font-size: 48px;
+  color: #ffffff;
+  text-align: center;
+}
+h1.logosmaller span {
+  font-size: 72px;
+}
+h1 {
+  font-family: 'bebasregular';
+}
+.layer {
+  background-color: rgba(50, 50, 70, 0.7);
+}
+.yellow {
+  color: rgba(246, 252, 176, 0.7);
+  font-family: 'pirulen_rgregular';
+  font-size: 48px;
+  text-align: center;
+}
+header {
+  margin-top: 90px;
+}
+header h1 {
+  font-family: 'bebasregular';
+  color: #ffffff;
+  font-size: 63px;
+}
+header h1.tagline {
+  color: #a4c6ec;
+  font-size: 48px;
+  color: -webkit-linear-gradient(#a4c6ec, #0b3250);
+  /* For Safari 5.1 to 6.0 */
+  color: -o-linear-gradient(#a4c6ec, #0b3250);
+  /* For Opera 11.1 to 12.0 */
+  color: -moz-linear-gradient(#a4c6ec, #0b3250);
+  /* For Firefox 3.6 to 15 */
+  color: linear-gradient(#a4c6ec, #0b3250);
+  /* Standard syntax */
+}
+h1.tagline {
+  color: #a4c6ec;
+  font-size: 48px;
+  color: -webkit-linear-gradient(#a4c6ec, #0b3250);
+  /* For Safari 5.1 to 6.0 */
+  color: -o-linear-gradient(#a4c6ec, #0b3250);
+  /* For Opera 11.1 to 12.0 */
+  color: -moz-linear-gradient(#a4c6ec, #0b3250);
+  /* For Firefox 3.6 to 15 */
+  color: linear-gradient(#a4c6ec, #0b3250);
+  /* Standard syntax */
+  text-transform: uppercase;
+}
+.top100 {
+  background: -webkit-linear-gradient(#ffffff, #ebf3fd);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#ffffff, #ebf3fd);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#ffffff, #ebf3fd);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#ffffff, #ebf3fd);
+  /* Standard syntax */
+  height: 400px;
+}
+.top100 h1 {
+  font-family: 'robotolight';
+  font-size: 63px;
+  color: #423e3e;
+}
+.top100 li {
+  font-family: 'robotolight';
+  font-size: 30px;
+  color: #6492c8;
+  float: left;
+  list-style: none;
+  margin-left: 192px;
+}
+.logo {
+  font-family: 'pirulen_rgregular';
+  color: #ffffff;
+  font-size: 48px;
+}
+nav {
+  background-color: #031421;
+  background: -webkit-linear-gradient(#0a161c, #0b3250);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#0a161c, #0b3250);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#0a161c, #0b3250);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#0a161c, #0b3250);
+  /* Standard syntax */
+  height: 73px;
+  display: none;
+  position: fixed;
+  width: 100%;
+}
+nav h1 {
+  color: #ffffff;
+  float: left;
+  font-family: "bebasregular";
+  font-size: 24px;
+  margin-left: 18px;
+  padding-top: 0;
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+}
+nav span {
+  margin-left: 10px;
+}
+.currentbrackets {
+  background-color: #0c2336;
+}
+.action .bluebutton {
+  font-family: 'bebasregular';
+  border: 1px solid #666;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 63px;
+  background-color: #67a4e8;
+  padding: 5px;
+}
+.square-box {
+  position: relative;
+  width: 50%;
+  overflow: hidden;
+  background: #4679BD;
+  margin-top: 10px;
+}
+.square-box:before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+.square-box-gray {
+  position: relative;
+  width: 50%;
+  overflow: hidden;
+  background: #56566b;
+  margin-top: 10px;
+}
+.square-box-gray:before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+.square-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  color: white;
+}
+.square-content div {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.square-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  font-family: 'bebasregular';
+  font-size: 43px;
+}
+div.overlay {
+  background-color: rgba(0, 0, 0, 0.25);
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+}
+div.overlay > div.login-wrapper {
+  align-self: center;
+  background-color: rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+  padding: 6px;
+  width: 450px;
+}
+.container.clearfix.registration ul.logoelements li {
+  list-style: outside none none;
+  margin: -33px;
+}
+div.overlay > div.login-wrapper > div.login-content {
+  background-color: #ffffff;
+  border-radius: 2px;
+  padding: 24px;
+  position: relative;
+}
+/*Registration page CSS */
+.container.clearfix.registration {
+  background-color: rgba(42, 47, 63, 0.6);
+}
+.container.clearfix.registration li {
+  list-style: none;
+}
+.registration .tagline {
+  text-align: center;
+  margin-top: 63px;
+}
+.aquacircle {
+  border-radius: 50%;
+  width: 168px;
+  height: 168px;
+  background-color: #78a0aa;
+  /* width and height can be anything, as long as they're equal */
+}
+.redcircle {
+  border-radius: 50%;
+  width: 168px;
+  height: 168px;
+  background-color: #b74b5a;
+}
+.lucky h1 {
+  color: #b74b5a;
+  font-size: 63px;
+}
+.smartchoice {
+  float: right;
+  margin-right: 206px;
+}
+.smart h1 {
+  color: #78a0aa;
+  font-size: 63px;
+}
+.lucky {
+  float: right;
+  margin-right: 45px;
+}
+footer {
+  opacity: .8;
+  background: -webkit-linear-gradient(#0a161c, #0b3250);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#0a161c, #0b3250);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#0a161c, #0b3250);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#0a161c, #0b3250);
+  /* Standard syntax */
+  width: 100%;
+}
+footer h1 {
+  font-size: 42px;
+  color: #cce2fa;
+  text-align: center;
+  font-weight: normal;
+}
+footer h1 span {
+  color: #78a0aa;
+}
+/*
+ * Keyframes
+ */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: .5;
+  }
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+/*
+ * CSS Page Transitions
+ * Don't forget to add vendor prefixes!
+ */
+.m-scene {
+  /** Basic styles for an animated element */
+  /** An element that fades in */
+  /** An element that fades in and slides up */
+  /** An element that fades in and slides from the right */
+}
+.m-scene .scene_element {
+  animation-duration: 0.45s;
+  transition-timing-function: ease-in;
+  animation-fill-mode: both;
+}
+.m-scene .scene_element--fadein {
+  animation-name: fadeIn;
+}
+.m-scene .scene_element--fadeinup {
+  animation-name: fadeInUp;
+}
+.m-scene .scene_element--fadeinright {
+  animation-name: fadeInRight;
+}
+input[type=text],
+input[type=url],
+input[type=tel],
+input[type=number],
+input[type=color],
+input[type=email],
+input[type=password],
+input[type=file] {
+  background: rgba(204, 226, 250, 0.8);
+  border: none;
+  font-famlly: Robotolight;
+  font-size: 24px;
+  color: #ffffff;
+  font-family: 'robotolight';
+}
+input[type=file] {
+  margin-left: 36px;
+}
+.custom-file-input {
+  color: transparent;
+}
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.custom-file-input::before {
+  color: black;
+  display: inline-block;
+  background: -webkit-linear-gradient(top, #f9f9f9, #e3e3e3);
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 10pt;
+}
+.custom-file-input:hover::before {
+  border-color: black;
+}
+.custom-file-input:active {
+  outline: 0;
+}
+.custom-file-input:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+input[type=checkbox] {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 2rem;
+  margin: 0 -2rem -2rem 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 2rem;
+  opacity: 0.001;
+}
+.topcoat-checkbox__checkmark {
+  display: inline-block;
+  vertical-align: top;
+  width: 2rem;
+  height: 2rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/* Background */
+.topcoat-checkbox__checkmark:before {
+  content: '';
+  position: absolute;
+  box-sizing: border-box;
+  width: 2rem;
+  height: 2rem;
+  background: #e5e9e9;
+  border: 1px solid #a5a8a8;
+  border-radius: 3px;
+  cursor: pointer;
+  -webkit-box-shadow: inset 0 1px #fff;
+  box-shadow: inset 0 1px #fff;
+}
+/* Checkmark */
+.topcoat-checkbox__checkmark:after {
+  opacity: 0;
+  content: '';
+  position: absolute;
+  /* Length of check tail */
+  width: 28px;
+  /* Lenght of check foot */
+  height: 11px;
+  background: transparent;
+  border: 7px solid #666666;
+  border-top: none;
+  border-right: none;
+  border-radius: 2px;
+  -webkit-transform: rotate(-50deg);
+  -moz-transform: rotate(-50deg);
+  -o-transform: rotate(-50deg);
+  -ms-transform: rotate(-50deg);
+  transform: rotate(-50deg);
+}
+:checked + .topcoat-checkbox__checkmark:after {
+  opacity: 1;
+}
+:focus + .topcoat-checkbox__checkmark:before {
+  border: 1px solid #0940fd;
+  -webkit-box-shadow: 0 0 0 2px #6fb5f1;
+  box-shadow: 0 0 0 2px #6fb5f1;
+}
+:disabled + .topcoat-checkbox__checkmark:before {
+  opacity: 0.3;
+  cursor: default;
+  pointer-events: none;
+}
+label {
+  color: #ffffff;
+  font-famlly: Robotolight;
+  font-size: 24px;
+}
+.signup li {
+  margin-top: 40px;
+}
+#mask {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 9000;
+  background-color: #000;
+  display: none;
+}
+#boxes .window {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 440px;
+  height: 200px;
+  display: none;
+  z-index: 9999;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+}
+#boxesperm {
+  width: 750px;
+  height: 100%;
+  padding: 10px;
+  background: -webkit-linear-gradient(#ffffff, #dbe3ec);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#ffffff, #dbe3ec);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#ffffff, #dbe3ec);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#ffffff, #dbe3ec);
+  /* Standard syntax */
+  margin-top: 36px;
+  font-size: 15pt;
+}
+#boxesperm h1 {
+  font-size: 32px;
+  color: #b74b5a;
+  opacity: .8;
+  text-align: left;
+  font-weight: normal;
+  margin-left: 36px;
+}
+#boxes #dialog {
+  width: 750px;
+  height: 300px;
+  padding: 10px;
+  background: -webkit-linear-gradient(#ffffff, #dbe3ec);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#ffffff, #dbe3ec);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#ffffff, #dbe3ec);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#ffffff, #dbe3ec);
+  /* Standard syntax */
+  font-size: 15pt;
+}
+#boxes h1 {
+  font-size: 32px;
+  color: #b74b5a;
+  opacity: .8;
+  text-align: left;
+  font-weight: normal;
+}
+#popupfoot a {
+  font-family: 'robotolight';
+  font-size: 26px;
+  color: #28843c;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-left: 36px;
+}
+#popupfoot a.guest {
+  color: #968e8f;
+  margin-left: 20px;
+}
+.black {
+  background-color: #000000;
+  margin-top: 21px;
+  opacity: 0.68;
+  position: relative;
+  top: 36px;
+  width: 770px;
+}
+.black h1 {
+  color: #ffffff;
+  font-family: "robotolight";
+  font-size: 26px;
+  font-weight: lighter;
+  margin-left: 36px;
+}
+.profile {
+  margin-left: 36px;
+  margin-top: 20px;
+  max-height: 136px;
+  max-width: 136px;
+}
