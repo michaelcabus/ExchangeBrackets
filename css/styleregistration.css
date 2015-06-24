@@ -26,6 +26,9 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+.chosestatus button {
+  margin-top: 40px;
+}
 .registrationheading {
   color: #85b4f4;
   font-family: "robotolight";
@@ -52,12 +55,13 @@ button {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
-  width: 192px;
   height: 93px;
   color: #ffffff;
   font-family: bebasregular;
   padding: 14px;
-  font-size: 48px;
+  width: 494px;
+  height: 98px;
+  font-size: 30px;
   border-bottom: none;
   /*-moz-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);*/
 }

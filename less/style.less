@@ -60,13 +60,14 @@ background: #67a4e8;
 
 border:none;
 -moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;
-width:192px;
+
 height:93px;
 color:#ffffff;
 font-family:bebasregular;
 padding:14px;
-font-size:48px;
+font-size:30px;
 border-bottom:none;
+animation-name:play;
 /*-moz-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);*/
 
 }
@@ -74,6 +75,14 @@ border-bottom:none;
 button:hover{
 	
 	background-color:rgba(137,179,249,0.8);
+}
+
+#Date {
+	color:#ffffff;
+font-family:bebasregular;
+font-size:32px;
+margin-left:176px;
+
 }
 
 
@@ -101,11 +110,14 @@ button.gray:hover{
 
 body {
 	
-  background:url('../IMG/background.png') no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+   
+    background-color:#36404e;
+  
+   animation-duration: 43.90s;
+    transition-timing-function: ease-in;
+   
+	animation-name:backgroundintro;
+
   
  
  	
@@ -134,25 +146,124 @@ header {
  			color:#ffffff;	
  			font-size:63px;
 			text-align:center;
+			  animation-duration: 23.90s;
+    transition-timing-function: ease-in;
+    animation-fill-mode: both;
+	animation-name:subtitleintro;
+	font-weight:100;
+	font-style:italic;
+	
 	
 	
 			}
 
 
-			h1.tagline {
-				font-family:'bebasregular';
+		.secondtagline {
+			font-family:'bebasregular';
 				text-align:left;
- 			color:#a4c6ec;
+				opacity:.7;
+ 			color:#67a4e8;
  			font-size:48px;	
-			 color: -webkit-linear-gradient(#a4c6ec, #0b3250); /* For Safari 5.1 to 6.0 */
-  	color: -o-linear-gradient(#a4c6ec, #0b3250); /* For Opera 11.1 to 12.0 */
-  color: -moz-linear-gradient(#a4c6ec, #0b3250); /* For Firefox 3.6 to 15 */
-  color: linear-gradient(#a4c6ec, #0b3250); /* Standard syntax */
+			ext-align:center;
+			  animation-duration: 36.90s;
+    transition-timing-function: ease-in;
+    animation-fill-mode: both;
+	animation-name:taglineintro6;
+	margin-left:53px;
 	
-			}
+			
+		}
 
+			
 }
 
+
+.tagline {
+				font-family:'bebasregular';
+				text-align:left;
+				opacity:.7;
+ 			color:#67a4e8;
+ 			font-size:48px;	
+			ext-align:center;
+			  animation-duration: 19.90s;
+    transition-timing-function: ease-in;
+    animation-fill-mode: both;
+	animation-name:taglineintro1;
+	
+	
+			span {
+				
+			 float:left;	
+			}
+}
+
+
+.animated {
+ float:left;	
+	
+}
+
+span.flipin {
+				
+				  animation-duration: 20.90s;
+    transition-timing-function: ease-in;
+    animation-fill-mode: both;
+	animation-name:taglineintro2;
+	font-family:'bebasregular';
+				text-align:left;
+				opacity:.7;
+ 			color:#67a4e8;
+ 			font-size:48px;	
+				
+			}
+	
+		
+span.flipin2 {
+				
+				  animation-duration: 20.90s;
+    transition-timing-function: ease-in;
+    animation-fill-mode: both;
+	animation-name:taglineintro3;
+	font-family:'bebasregular';
+				text-align:left;
+				opacity:.7;
+ 			color:#67a4e8;
+ 			font-size:48px;	
+				
+			}		
+			
+
+	
+span.flipin3 {
+				
+				  animation-duration: 20.90s;
+    transition-timing-function: ease-in;
+    animation-fill-mode: both;
+	animation-name:taglineintro4;
+	font-family:'bebasregular';
+				text-align:left;
+				opacity:.7;
+ 			color:#67a4e8;
+ 			font-size:48px;	
+				
+			}		
+			
+
+	
+span.flipin4 {
+				
+				  animation-duration: 20.90s;
+    transition-timing-function: ease-in;
+    animation-fill-mode: both;
+	animation-name:taglineintro5;
+	font-family:'bebasregular';
+				text-align:left;
+				opacity:.7;
+ 			color:#67a4e8;
+ 			font-size:48px;	
+				
+			}		
+		
 
 .top100 {
 		 background: -webkit-linear-gradient(#ffffff, #ebf3fd); /* For Safari 5.1 to 6.0 */
@@ -189,6 +300,15 @@ header {
 	color:#ffffff;
 	font-size:48px;
 	text-align:center;
+	  animation-duration: 16.90s;
+    transition-timing-function: ease-in;
+    animation-fill-mode: both;
+	animation-name:titleintro;
+	font-weight:100;
+	font-style:normal;
+	-moz-text-shadow: 6 6 5px #2687ab;
+-webkit-text-shadow: 6 6 5px #2687ab;
+text-shadow: 6px 6px 5px #2687ab;
 
 	
 }
@@ -223,6 +343,79 @@ header {
   }
 	 
 	 
+ }
+ 
+ .countdown {
+	 
+	 animation-name:play; 
+	
+				  animation-duration: 40.90s;
+    transition-timing-function: ease-in;
+    animation-fill-mode: both;
+	
+	opacity:.8;
+	 background: -webkit-linear-gradient(#0a161c, #0b3250); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#0a161c, #0b3250); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#0a161c, #0b3250); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#0a161c, #0b3250); /* Standard syntax */
+	
+	
+	
+	width:100%;
+	
+	
+	 h1 {
+	font-size:42px;
+	color:#cce2fa; 
+	text-align:center;
+	font-weight:normal;
+	font-style:normal;
+	 
+ }
+
+ h1 span {
+	  color:#78a0aa;
+	  font-style:none;
+	
+}
+
+	 
+	 
+	/* h1 {
+		font-family: 'robotolight';
+		font-size:40px;
+		color:#f58360; 
+		list-style:none;
+		text-transform:uppercase;
+		font-style:normal;
+	
+		
+		 
+	 }*/
+	 
+	 ul {
+		margin-right:10px;
+		padding-left:0;
+		margin:0; 
+		 
+	 }
+	 
+	 li {
+		font-family: "bebasregular";
+		font-size:40px;
+		 color:#f4573c;
+		list-style:none;
+		float:left;
+		margin-left:20px;
+		font-weight:lighter;
+		 
+	 }
+	 
+	 li span {
+		
+		 color:#f58360; 
+		 
+	 }
  }
 
 .currentbrackets {
@@ -262,7 +455,7 @@ header {
 		
 	}
 	
-	
+	 
 }
 
 .square-box-gray {
@@ -345,6 +538,347 @@ div.overlay > div.login-wrapper > div.login-content {
 /*
  * Keyframes
  */
+ 
+ @keyframes taglineintro2 {
+	 0% {
+	 opacity:.0;	
+		
+	}
+	
+	25% {
+	 opacity:0;	
+		
+	}
+	
+	45% {
+	
+	 opacity:.9;
+		
+	}
+	
+	 53% {
+		 opacity:.0;
+		 
+	 }
+	 
+	 65% {
+		opacity:.0; 
+		 
+	 }
+	 
+	 100% {
+		opacity:0; 
+		 
+	 }
+	 
+ }
+ 
+ @keyframes taglineintro1 {
+	0% {
+	 opacity:0;	
+		
+	}
+	
+	25% {
+	 opacity:0;	
+		
+	}
+	
+	47% {
+	 opacity:.9;	
+		
+	}
+	
+	56% {
+	 opacity:.0;	
+		
+	}
+	 
+	
+	 100% {
+		opacity:0; 
+		 
+	 }
+	 
+	 
+ }
+ 
+ @keyframes taglineintro3 {
+	0% {
+	 opacity:.0;	
+		
+	}
+	
+	25% {
+	 opacity:0;	
+		
+	}
+	
+	57% {
+	
+	 opacity:9;
+		
+	}
+	
+	 60% {
+		 opacity:.0;
+		 
+	 }
+	 
+	 75% {
+		opacity:0; 
+		 
+	 }
+	 
+	 100% {
+		 opacity:0; 
+		 
+	 }
+	 
+	 
+	 
+	
+	 
+	 
+	 
+ }
+ 
+  @keyframes taglineintro4 {
+	0% {
+	 opacity:.0;	
+		
+	}
+	
+	25% {
+	 opacity:0;	
+		
+	}
+	
+	60% {
+	
+	 opacity:.5;
+		
+	}
+	
+	 68% {
+		 opacity:.0;
+		 
+	 }
+	 
+	
+	 100% {
+		 opacity:0; 
+		 
+	 }
+	 
+	 
+	 
+	
+	 
+	 
+	 
+ }
+ 
+ 
+   @keyframes taglineintro5 {
+	0% {
+	 opacity:.0;	
+		
+	}
+	
+	25% {
+	 opacity:0;	
+		
+	}
+	
+	57% {
+	
+	 opacity:0;
+		
+	}
+	
+	 63% {
+		 opacity:.9;
+		 
+	 }
+	 
+	
+	 
+	 75% {
+		opacity:.9;
+		 
+	 }
+	 
+	 100% {
+		 opacity:0; 
+		 
+	 }
+	 
+	 
+	 
+	
+	 
+	 
+	 
+ }
+ 
+   @keyframes taglineintro6 {
+	0% {
+	 opacity:.0;	
+		
+	}
+	
+	25% {
+	 opacity:0;	
+		
+	}
+	
+	57% {
+	
+	 opacity:0;
+		
+	}
+	
+	 63% {
+		 opacity:.0;
+		 
+	 }
+	 
+	
+	 
+	 95% {
+		opacity:.9;
+		 
+	 }
+	 
+	 100% {
+		 opacity:.9; 
+		 
+	 }
+	 
+	 
+	 
+	
+	 
+	 
+	 
+ }
+ 
+ 
+ 
+ @keyframes backgroundintro {
+	0% {
+	  background-color:#000000;
+
+	
+	}
+	 
+	 25% {
+		background-color:#0c2336;
+	 }
+	 
+	 100% {
+		
+	 	
+			background-color:#36404e;
+ 
+	 }
+	 
+	 
+ }
+ 
+ @keyframes titleintro {
+	0% {
+	 opacity:.0;	
+		
+	}
+	
+	10% {
+	 opacity:.5;	
+		
+	}
+	 
+	 17% {
+		 opacity:100%; 
+		 
+	 }
+	 
+ }
+ 
+ .play {
+	animation-name:play; 
+	
+				  animation-duration: 35.90s;
+    transition-timing-function: ease-in;
+    animation-fill-mode: both;
+	
+	 button {
+		 margin-top:40px; 
+		 
+	 }
+	 
+ }
+ 
+ @keyframes play {
+	  0% {
+		 opacity:.0;  
+		  
+	  }
+	  
+	  25% {
+		opacity:.0;  
+		  
+	  }
+	  
+	  65% {
+		opacity:.0;  
+		  
+	  }
+	  
+	  75% {
+		opacity:.0;  
+		  
+		  
+	  }
+	  
+	  95% {
+		opacity:.7;  
+		  
+	  }
+	  
+	  100% {
+		 opacity:.9;  
+		 	 background: -webkit-linear-gradient(#0a161c, #0b3250); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#0a161c, #0b3250); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#0a161c, #0b3250); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#0a161c, #0b3250); 
+		  
+	  }
+	 
+ }
+ 
+ @keyframes subtitleintro {
+	0% {
+	 opacity:0;	
+		
+	}
+	
+	
+	18% {
+	 opacity:.0;	
+		
+	}
+	
+	35% {
+	 opacity:.5;	
+		
+	}
+	 
+	 42% {
+		 opacity:100%; 
+		 
+	 }
+ }
 
 @keyframes fadeIn {
   0% {
@@ -378,6 +912,40 @@ div.overlay > div.login-wrapper > div.login-content {
     opacity: 1;
     transform: none;
   }
+}
+
+/* Simple Animation */
+@-webkit-keyframes mymove {
+    0% {opacity: 1.0;
+    text-shadow: 0 0 20px #00c6ff;
+}
+
+50% {
+    opacity: 0;
+    text-shadow: none;
+}
+
+100% {
+    opacity: 1.0;
+    text-shadow: 0 0 20px #00c6ff;
+}	
+}
+
+@-moz-keyframes mymove {
+    0% {
+        opacity: 1.0;
+        text-shadow: 0 0 20px #00c6ff;
+    }
+
+    50% {
+        opacity: 0;
+        text-shadow: none;
+    }
+
+    100% {
+        opacity: 1.0;
+        text-shadow: 0 0 20px #00c6ff;
+    };
 }
 
 
